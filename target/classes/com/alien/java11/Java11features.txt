@@ -1,0 +1,28 @@
+1. What are the new features introduced in Java 11?
+Answer: Java 11 introduced several new features and enhancements, including:
+
+1. Local-Variable Syntax for Lambda Parameters: Allows the use of var in lambda expressions.
+
+2. New String Methods: isBlank(), lines(), strip(), stripLeading(), stripTrailing(), and repeat().
+
+3. File Methods: readString() and writeString().
+
+4. Optional Methods: isEmpty(), ifPresentOrElse(), or(), and stream().
+
+5. HTTP Client: Standardized the HTTP Client API that was introduced in Java 9 as an incubator module.
+
+6. Nest-Based Access Control: Introduced to support the improved encapsulation of nested classes.
+	 	Nest-Based Access Control is a feature introduced in Java 11 that improves the access control mechanism 
+		between nested classes. It allows nested classes to access private members of other nested 
+		classes within the same outer class.
+
+7. Deprecation of Nashorn JavaScript Engine: Marked for removal.
+
+8. Epsilon Garbage Collector: A no-op garbage collector for testing. 
+	The Epsilon Garbage Collector is a no-op garbage collector introduced in Java 11. 
+	It handles memory allocation but does not reclaim any memory. 
+	It is mainly used for performance testing and benchmarking where garbage collection overhead needs to be minimized.
+	Example Usage: To enable the Epsilon Garbage Collector, you can start your Java application with 
+	the following JVM option:
+	java -XX:+UnlockExperimentalVMOptions -XX:+UseEpsilonGC -Xmx2g -Xms2g -jar myapp.jar
+	
