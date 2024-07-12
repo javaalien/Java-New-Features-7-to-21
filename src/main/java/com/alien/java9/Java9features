@@ -1,0 +1,38 @@
+Java 9 Features:
+
+There are 90+ enhancements added to Java 9, the most significant ones are mentioned below −
+
+Module − A new kind of Java programing component introduced as a module, which is a named, 
+self-describing collection of code and data.
+
+REPL (JShell) − Read-Eval-Print Loop (REPL) capability added to the Java platform.
+
+HTTP 2 Client − new HTTPClient API supporting WebSockets and HTTP 2 streams and server push features.
+
+Improved JavaDocs − Supports HTML5 output generation. Provides a search box to generate API documentation.
+
+Multi-release JAR − Enhances the JAR format so that multiple, Java release-specific versions of class files can coexist in a single archive.
+
+Collection Factory Methods − New static factory methods for List, Set, and Map interfaces to create immutable instances of those collections.
+
+Private Interface Methods − Enhanced interfaces with private and private static methods.
+
+Process API Improvements − Improved API to control and manage operating system processes.
+
+Stream API Improvements − Enhanced security and robustness by allowing filtered incoming streams of object-serialization data.
+
+Try With Resources improvement − Now final variables can be used as resources in the try-with-resources statement.
+
+Enhanced @Deprecated Annotation − @Deprecated annotation is revamped to provide more information about the status and intended disposition of an API.
+
+Inner Class Diamond Operator − Allow the diamond operator to be used with anonymous classes if the argument type of the inferred type can be denoted.
+
+Optional Class Improvements − New useful methods are added to java.util.Optional class.
+
+Multiresolution Image API − Supports the encapsulation of a set of images with different resolutions into a single multiresolution image.
+
+CompletableFuture API improvements − The asynchronous mechanisms of the CompletableFuture class can perform an action when the process exits with ProcessHandle.onExit method.
+
+Lightweight JSON − A lightweight API introduced to consume and generate documents and data streams via JSON in java 9.
+
+Reactive Streams API − A new Reactive Streams API in Java SE 9 has been introduced to support reactive programming in java 9.
