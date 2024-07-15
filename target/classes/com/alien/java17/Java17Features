@@ -1,0 +1,23 @@
+================What are the new features introduced in Java 17?
+
+- Pattern Matching for instanceof (JEP 394): Simplifies the common pattern of combining 
+  instanceof and type casting.
+
+- Sealed Classes (JEP 409): Provides a more declarative way to restrict which classes 
+  or interfaces can extend or implement them.
+  
+- Enhanced Pseudo-Random Number Generators (JEP 356): Adds new interfaces and implementations 
+  for pseudorandom number generators (PRNGs).
+  
+- Deprecation of the Applet API (JEP 398): Marks the Applet API for future removal.
+
+- Removal of the Experimental AOT and JIT Compiler (JEP 410): Removes the experimental 
+  ahead-of-time (AOT) and just-in-time (JIT) compiler.
+  
+- Strong Encapsulation of JDK Internals (JEP 403): Strongly encapsulates JDK internals, 
+  except for critical internal APIs such as sun.misc.Unsafe.
+  
+- Foreign Function & Memory API (Incubator, JEP 412): Introduces an API for interacting with 
+  code and data outside of the Java runtime.
+  
+- Vector API (Second Incubator, JEP 414): Introduces an API to express vector computations.
